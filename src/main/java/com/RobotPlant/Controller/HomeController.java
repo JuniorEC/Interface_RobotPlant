@@ -1,4 +1,4 @@
-package com.RobotPlant.Interface;
+package com.RobotPlant.Controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -70,6 +70,7 @@ public class HomeController implements Initializable {
     @FXML
     NumberAxis yAxis;
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 
